@@ -1,1 +1,6 @@
+name: Build Android APK
 
+on:
+  push:
+    branches: [ main ]  # يُشغّل تلقائياً عند رفع كود إلى main
+  workflow_dispatch:    # يسمح بتشغيله يدوياً من زر Run workflow
